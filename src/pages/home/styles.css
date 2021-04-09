@@ -1,0 +1,55 @@
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+h1 {
+  margin: 10px 0 0;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.info {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.info-item {
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  margin: 20px 0;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+a {
+  opacity: 1;
+  transition: 0.2s;
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
